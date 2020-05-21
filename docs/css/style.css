@@ -1661,12 +1661,13 @@ h5,
 }
 
 .header-top>.container {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 16px;
+    padding-bottom: 0px;
 }
 
 .header-top .quick-contact-icons .icon {
     margin-right: 10px;
+    color: grey
 }
 
 .header-top .quick-contact-icons .icon span {
