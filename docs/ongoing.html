@@ -302,66 +302,12 @@
 
 
 
-        <div class="site-section block-3">
-            <div class="container">
-
-                <div class="mb-5">
-                    <h3 class="section-subtitle">Projektet tona</h3>
-                    <h2 class="section-title mb-4">Disa nga <strong>projektet tona me te fundit</strong></h2>
-                </div>
-
-                <div class="projects-carousel-wrap">
-                    <div class="owl-carousel owl-slide-3">
-                        <div class="project-item">
-                            <div class="project-item-contents">
-                                <a href="#">
-                                    <span class="project-item-category">Projekti 1</span>
-                                    <h2 class="project-item-title">
-                                        Shtëpi banimi
-                                    </h2>
-                                </a>
-                            </div>
-                            <img src="images/home-1.jpeg" alt="Image" class="img-fluid">
-                        </div>
-                        <div class="project-item">
-                            <div class="project-item-contents">
-                                <a href="#">
-                                    <span class="project-item-category">Projekti 2</span>
-                                    <h2 class="project-item-title">
-                                        Shtëpi banimi
-                                    </h2>
-                                </a>
-                            </div>
-                            <img src="images/home-2.jpeg" alt="Image" class="img-fluid">
-                        </div>
-                        <div class="project-item">
-                            <div class="project-item-contents">
-                                <a href="#">
-                                    <span class="project-item-category">Projekti 3</span>
-                                    <h2 class="project-item-title">
-                                        Shtëpi banimi
-                                    </h2>
-                                </a>
-                            </div>
-                            <img src="images/home-3.jpeg" alt="Image" class="img-fluid">
-                        </div>
-                        <div class="project-item">
-                            <div class="project-item-contents">
-                                <a href="#">
-                                    <span class="project-item-category">Projekti 4</span>
-                                    <h2 class="project-item-title">
-                                        Shtëpi banimi
-                                    </h2>
-                                </a>
-                            </div>
-                            <img src="images/project.jpeg" alt="Image" class="img-fluid">
-                        </div>
-
-
-                    </div>
-                </div>
-
-            </div>
+        <div class=" block-3" style="display: flex; justify-content: center;" >
+        <div class="col-md-2"></div>
+                <div class='sk-ww-facebook-feed' style="display:block; margin: 32px" data-embed-id='44876'></div>
+                <script src='https://www.sociablekit.com/app/embed/facebook-feed/widget.js' async defer></script>
+                
+        <div class="col-md-2"></div>
         </div>
 
 
@@ -380,7 +326,7 @@
                         <div class="testimonial">
                             <img src="images/person_3_sq.jpg" alt="">
                             <blockquote>
-                                <p>&ldquo;Djali i pronarit, studion ne fultz per mekanike&rdquo;</p>
+                                <p></p>
                             </blockquote>
                             <p class="client-name">Edison Nikollo</p>
                         </div>
@@ -389,7 +335,7 @@
                         <div class="testimonial">
                             <img src="images/person_4_sq.jpg" alt="">
                             <blockquote>
-                                <p>&ldquo;Një bio e shkurtër&rdquo;</p>
+                                <p>&ldquo;&rdquo;</p>
                             </blockquote>
                             <p class="client-name">Aleks Nikolli</p>
                         </div>
@@ -406,11 +352,6 @@
                     <div class="col-12 mb-5 text-left">
                         <h3 class="section-subtitle">Me te rejat</h3>
                         <!--h2 class="section-title text-black mb-4">Postimet &amp; të rejat më të fundit ne facebook</h2-->
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 mb-12 mb-lg-0 col-lg-12">
-                      <div class="fb-page" data-href="https://www.facebook.com/nikolliconstruction/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/nikolliconstruction/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/nikolliconstruction/">Nikolli Construction</a></blockquote></div>
                     </div>
                 </div>
             </div>
@@ -508,6 +449,20 @@
     <script src="js/jquery.fancybox.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script>
+
+
+jQuery(document).ready(function($) {
+
+	"use strict";
+
+    setTimeout(() => {
+    console.log($("#fbc").contents().find("body").html());
+    }, 5000)
+
+
+});
+    </script>
 
 
 
